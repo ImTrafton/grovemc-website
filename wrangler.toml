@@ -1,0 +1,5 @@
+name = "grovemc-website"
+compatibility_date = "2026-04-01"
+
+[assets]
+directory = "."
