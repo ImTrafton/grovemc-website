@@ -20,7 +20,6 @@ function renderHeader() {
               (item) => `<a class="nav-link ${item.key === page ? 'active' : ''}" href="${item.href}">${item.label}</a>`
             )
             .join('')}
-          <span class="server-chip">IP: play.grovemc.net</span>
           <a class="btn btn-primary" href="index.html#join">Play</a>
         </nav>
       </div>
